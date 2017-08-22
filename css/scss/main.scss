@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+//@import url('https://fonts.googleapis.com/css?family=Roboto&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+
+
+$font-1: 'Roboto';
+
+$color-1: #182fd4;
+
+$width1: 1170px;
+
+html body {
+  font-size: 16px;
+  font-family: $font-1;
+}
+
+@import "global";
+@import "navbar";

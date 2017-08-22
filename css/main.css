@@ -1,0 +1,48 @@
+@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v16/zN7GBFwfMP4uA6AR0HCoLQ.ttf) format('truetype')}
+html body{font-size:16px;font-family:"TT Lakes Condensed"}
+@media (max-width:992px){.cssmenu .nav-menu .navbar-header-1 a,.menu-btn,.nav-background .navbar-header-2 a{outline:0}
+.cssmenu .nav-menu>li>a.nav-links,.menu-btn .menu-text{text-transform:uppercase}
+.cssmenu .nav-menu>li>a.lang-link,.menu-btn{text-align:center}
+.navbar-main-1{height:80px}
+.navbar-header-1{display:none}
+.change-lang.active{display:none!important}
+.main-screen .accordion{padding-top:25px}
+.nav-background{position:fixed;top:0;display:block;width:100%;background-color:#f8f8f8;height:80px;z-index:99}
+.menu-btn,.menu-btn-close{position:fixed;top:10px;z-index:999;transition-property:right;cursor:pointer}
+.nav-background .navbar-header-2{transition-property:right;transition-duration:1s;position:fixed;right:40%;margin-right:0;margin-left:20px;margin-top:20px;height:80px}
+.nav-background .navbar-header-2 .navbar-logo{height:50px;color:#777}
+.nav-background .navbar-header-2 .navbar-logo img{width:120px}
+.nav-background .navbar-header-2 .navbar-logo:hover,.nav-background .navbar-header-2:active{outline:0;text-decoration:none}
+.menu-btn{right:10px;border-radius:0;border:2px solid silver;background-color:#19acb3;width:58px;height:58px;padding:7px;transition-duration:1s}
+.menu-btn .menu-text{display:block;color:#fff;font-size:.6em;margin-top:-1px}
+.menu-btn>img{vertical-align:middle;margin-top:7px;margin-bottom:7px}
+.menu-btn.toggled-on{right:245px}
+.menu-btn-close{right:-30px;transition-duration:.9s}
+.menu-btn-close>img{width:30px;height:30px;vertical-align:middle}
+.menu-btn-close.toggled-on{right:10px}
+.cssmenu{width:300px;font-family:Akrobat;font-size:22px;margin:0;padding:0;border:0;list-style:none;display:block;position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.cssmenu .nav-menu{position:fixed;right:-230px;top:0;padding-top:79px;padding-left:0;background:#19acb3;bottom:0;width:230px;height:100%;z-index:99;transition-property:right;transition-duration:1s}
+.cssmenu .nav-menu .navbar-header-1{display:none;margin-right:0;margin-left:15px}
+.cssmenu .nav-menu .navbar-header-1 .navbar-logo{height:50px;color:#777}
+.cssmenu .nav-menu .navbar-header-1 .navbar-logo img{width:100px}
+.cssmenu .nav-menu.toggled-on{display:inline-block;position:fixed;right:0}
+.cssmenu .nav-menu>li{margin:0;padding:0;border:0;list-style:none;display:block;position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.cssmenu .nav-menu>li>a{padding:15px 20px;border-top:1px solid #4c4c4c;display:block;cursor:pointer;z-index:2;font-size:14px;font-weight:700;text-decoration:none;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,.35);background:#c8f3f1;box-shadow:inset 0 1px 0 rgba(255,255,255,.15)}
+}
+@media (min-width:992px){.menu-btn,.menu-btn-close,.nav-background{display:none}
+.navbar-main-1{height:90px;position:fixed;top:0;width:100%;border-radius:0;border:none;margin-bottom:0;text-align:center;min-height:85px;font-family:Akrobat;font-size:22px;background-color:#f8f8f8;z-index:101}
+.navbar-main-1 .cssmenu{display:block!important;padding-bottom:0;width:100%;-webkit-box-shadow:none;box-shadow:none}
+.navbar-main-1 .cssmenu .nav-menu{float:right;padding-left:0;margin-bottom:0;list-style:none;width:75%;margin-top:20px}
+.navbar-main-1 .cssmenu .nav-menu>li{float:left;position:relative;display:block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;font-size:16px}
+.navbar-main-1 .cssmenu .nav-menu>li:last-child{float:right}
+.navbar-main-1 .cssmenu .nav-menu>li>a{color:#777;line-height:20px;position:relative;display:block;padding:10px 15px;text-decoration:none}
+.navbar-main-1 .cssmenu .nav-menu>li>a:hover{color:#3a3a3a}
+.navbar-main-1 .navbar-header-1{margin-right:25px;float:left;width:20%}
+.navbar-main-1 .navbar-header-1 a{outline:0;text-decoration:none}
+.navbar-main-1 .navbar-header-1 a:hover{text-decoration:none}
+.navbar-main-1 .navbar-header-1 .navbar-logo{width:70%;font-size:18px;line-height:20px;color:#777}
+.navbar-main-1 .navbar-header-1 .navbar-logo>img{margin-top:11px;width:100%}
+.navbar-main-1 .navbar-header-1 .navbar-logo:hover{color:#3a3a3a}
+.navbar-main-1 .nav-links{text-transform:uppercase}
+.navbar-main-1 .change-lang{bottom:7px}
+}
