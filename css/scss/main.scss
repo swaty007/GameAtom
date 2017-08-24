@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-//@import url('https://fonts.googleapis.com/css?family=Roboto&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
 
 
-$font-1: 'Roboto';
 
-$color-1: #182fd4;
+$font-1: 'Roboto', sans-serif;
+
+$color-1: #3ebda5;
 
 $width1: 1170px;
 
@@ -15,3 +15,12 @@ html body {
 
 @import "global";
 @import "navbar";
+@import "carousel";
+@import "menuBranch";
+@import "computers";
+@import "urunler";
+@import "Referanslar";
+@import "iletisim";
+@import "ortaclarimiz";
+@import "servise";
+@import "footer";

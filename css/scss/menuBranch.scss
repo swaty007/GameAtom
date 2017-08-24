@@ -1,0 +1,101 @@
+.branchWrapper {
+  width: 100%;
+  position: relative;
+  background: #3cbea6;
+  .menuBranch {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    a {
+      color: #fefefe;
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: uppercase;
+      line-height: 70px;
+      height: 140px;
+      width: 19.5%;
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      position: relative;
+      transition: 1s all;
+      white-space: nowrap;
+      &.active {
+        background-color: #168a73;
+      }
+      &:hover {
+        background-color: #168a73;
+        color: #121212;
+      }
+      &:nth-child(n):hover:before{
+        filter: invert(0)!important;
+      }
+      &:nth-child(1):before {
+        content: '';
+        width: 60px;
+        background-image: url(../img/icon/football.png);
+        background-size: 60px;
+        height: 60px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 13px;
+            filter: invert(1);
+        transition: 1s all;
+      }
+      &:nth-child(2):before {
+        content: '';
+        width: 60px;
+        background-image: url(../img/icon/dices.png);
+        background-size: 60px;
+        height: 60px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 13px;
+            filter: invert(1);
+        transition: 1s all;
+      }
+      &:nth-child(3):before {
+        content: '';
+        width: 60px;
+        background-image: url(../img/icon/chip.png);
+        background-size: 60px;
+        height: 60px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 13px;
+            filter: invert(1);
+        transition: 1s all;
+      }
+      &:nth-child(4):before {
+        content: '';
+        width: 60px;
+        background-image: url(../img/icon/strategy.png);
+        background-size: 60px;
+        height: 60px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 13px;
+            filter: invert(1);
+        transition: 1s all;
+      }
+      &:nth-child(5):before {
+        content: '';
+        width: 60px;
+        background-image: url(../img/icon/slot-machine.png);
+        background-size: 60px;
+        height: 60px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 13px;
+            filter: invert(1);
+        transition: 1s all;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .branchWrapper .menuBranch a {
+    width:32%;
+  }
+}

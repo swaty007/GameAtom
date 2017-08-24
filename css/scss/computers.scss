@@ -1,0 +1,38 @@
+.computers {
+  margin:50px 0;
+.computer-block {
+text-align: center;
+  background-color: #e4e3e3;
+  padding: 10px;
+  h2 {
+    color: #3ebda5;
+    font-family: $font-1;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .image-block {
+    img {
+
+    }
+  }
+
+  p {
+    color: #121212;
+    font-family: $font-1;
+    font-size: 14px;
+    font-weight: 400;
+  }
+button {
+  width: 250px;
+  height: 50px;
+  box-shadow: 0 0 27px rgba(77, 77, 77, 0.3), inset 0 -4px 0 rgba(18, 18, 18, 0.2);
+  background-color: #3ebda5;
+
+  color: #ffffff;
+  font-family: $font-1;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+}
+}

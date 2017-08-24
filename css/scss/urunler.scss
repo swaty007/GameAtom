@@ -1,0 +1,87 @@
+.urunler {
+  .menu {
+    text-align: center;
+    ul.alex_tab_menu {
+      list-style: none;
+      text-align: left;
+      width: 100%;
+      padding: 0;
+      li {
+        a {
+          img {
+            width: 30px;
+            height: 30px;
+            margin: 0 14px;
+            filter:invert(1);
+          }
+          background-color: $color-1;
+          color: #ffffff;
+          font-family: $font-1;
+          font-size: 16px;
+          font-weight: 400;
+          text-transform: uppercase;
+          line-height: 50px;
+          display:block;
+          text-decoration: none;
+          &:hover {
+            background-color: #168a73;
+          }
+          &.selected {background-color: #168a73;}
+        }
+      }
+    }
+    button {
+      box-shadow: 0 0 27px rgba(77, 77, 77, 0.3), inset 0 -4px 0 rgba(18, 18, 18, 0.2);
+      background-color: #3ebda5;
+      padding: 0;
+      span {
+        color: #ffffff;
+        font-family: $font-1;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 0 18px;
+      }
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+  .alex_tabs {
+    .alex_tab_content {
+      h2 {
+        color: #121212;
+        font-family: $font-1;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      .image_block {
+        width:100%;
+        img {
+          width: 100%;
+        }
+      }
+      .icon-text {
+        width: 24px;
+        height: 24px;
+        margin: 0 10px;
+      }
+      h3 {
+        color: $color-1;
+        font-family: $font-1;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      p {
+        color: #121212;
+        font-family: $font-1;
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+    }
+  }
+}

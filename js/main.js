@@ -50,3 +50,23 @@
         }
     };
 } )();
+
+
+
+// urunler tabs alex_tab
+$(document).ready(function () {
+    $('.alex_tabs').children('.alex_tab_content').hide();
+    $('.alex_tabs').children('.alex_tab_content').eq($('.alex_tab_menu li a.selected').parent('li').index()).addClass('active').slideDown(400);
+
+    $('.alex_tab_menu li').on('click',function () {
+        $('.alex_tab_menu li a').removeClass('selected');
+        $(this).children('a').addClass('selected');
+        var n = $(this).index();
+        $('.alex_tabs').children('.alex_tab_content.active').removeClass('active').slideUp(400);
+        setTimeout(function () {
+            $('.alex_tabs').children('.alex_tab_content').eq(n).addClass('active').slideDown(400);
+        },400)
+
+
+    });
+});

@@ -1,0 +1,24 @@
+.ortaclarimiz{
+  .main_image-block {
+    p{
+      color: #3ebda5;
+      font-family: $font-1;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .img_block{
+      display: inline-block;
+      text-align: center;
+      padding: 15px 9px;
+      width:100%;
+      background: #e4e3e3;
+      margin-bottom: 30px;
+      img{ height: 50px;}
+
+    }
+  }
+  .ucash{
+    padding: 0 0;
+    img{ height: 80px;}
+  }
+}

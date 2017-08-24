@@ -1,0 +1,39 @@
+.Referanslar {
+  .three_image_block {
+    position: relative;
+    margin-bottom: 60px;
+    .image {
+      display: inline-block;
+      background: url(../img/macbook.png);
+      //background-size: contain;
+      background-size: cover;
+      padding: 2.5% 6%;
+      width: 49%;
+      img {
+        height: 100%;
+        width:100%;}
+    }
+    .image_1 {
+    }
+    .image_2 {
+      position: absolute;
+      top: 12%;
+      left: 25%;
+    }
+    .image_3 {
+    }
+  }
+h2 {
+  color: $color-1;
+  font-family: $font-1;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+  p {
+    color: #121212;
+    font-family: $font-1;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}

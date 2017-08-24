@@ -4,7 +4,6 @@ $color-3: darken(desaturate(adjust-hue($color-1, 11), 20.22), 2.55);
 $color-4: lighten(desaturate(adjust-hue($color-1, 6), 31.87), 44.31);
 
 @media (max-width: 992px){
-  .navbar-main-1 {height:80px;}
   .navbar-header-1 {display:none;}
   //.change-lang {}
   .change-lang.active {
@@ -70,7 +69,7 @@ $color-4: lighten(desaturate(adjust-hue($color-1, 6), 31.87), 44.31);
   .menu-btn .menu-text {
     display: block;
     text-transform: uppercase;
-    color: white;
+    color: #fff;
     font-size: .6em;
     margin-top: -1px;
   }
@@ -158,16 +157,20 @@ $color-4: lighten(desaturate(adjust-hue($color-1, 6), 31.87), 44.31);
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         >a{
+          &.active {
+            background-color: $color-1;
+            color:#fff;
+          }
           padding: 15px 20px;
-          border-top: 1px solid #4c4c4c;
+          border-top: 1px solid #c9c9c9;
           display:block;
           cursor: pointer;
           z-index: 2;
           font-size: 14px;
           font-weight: 700;
           text-decoration: none;
-          color: #fff;
-          text-shadow: 0 1px 1px rgba(0,0,0,.35);
+          color: #121212;
+          //text-shadow: 0 1px 1px rgba(0,0,0,.35);
           background: $color-4;
           box-shadow: inset 0 1px 0 rgba(255,255,255,.15);
           &.nav-links{text-transform: uppercase;}
@@ -191,7 +194,7 @@ $color-4: lighten(desaturate(adjust-hue($color-1, 6), 31.87), 44.31);
   .menu-btn {display:none;}
   .nav-background {display:none;}
   .navbar-main-1 {
-    height:90px;
+    height:60px;
     position:fixed;
     top:0;
     width:100%;
@@ -199,7 +202,7 @@ $color-4: lighten(desaturate(adjust-hue($color-1, 6), 31.87), 44.31);
     border: none;
     margin-bottom: 0;
     text-align: center;
-    min-height: 85px;
+    min-height: 60px;
     font-family: $font-1;
     font-size: 22px;
     background-color: #f8f8f8;
@@ -216,7 +219,7 @@ $color-4: lighten(desaturate(adjust-hue($color-1, 6), 31.87), 44.31);
         margin-bottom: 0;
         list-style: none;
         width:75%;
-        margin-top: 20px;
+        //margin-top: 20px;
         >li {
           float: left;
           position: relative;
@@ -225,19 +228,28 @@ $color-4: lighten(desaturate(adjust-hue($color-1, 6), 31.87), 44.31);
           -moz-box-sizing: border-box;
           box-sizing: border-box;
           font-size:16px;
-          &:last-child {float:right;}
+          &:last-child {
+            float:right;
+            a {border:0;}
+          }
+          &:first-child a{border-left:1px solid #c9c9c9;}
           >a{
-            color: #777;
-            padding-top: 15px;
-            padding-bottom: 15px;
-            line-height: 20px;
+            &.active {
+              background-color: $color-1;
+              color:#fff;
+            }
+            color: #121212;
+            line-height: 60px;
             position: relative;
             display: block;
-            padding: 10px 15px;
+            padding: 0;
             text-decoration: none;
+            width:100px;
+            border-right:1px solid #c9c9c9;
+            transition: 0.4s;
             &:hover {
-              color: #3a3a3a;
-              //font-weight: 600;
+              background-color: $color-1;
+              color:#fff;
             }
           }
         }
@@ -256,9 +268,9 @@ $color-4: lighten(desaturate(adjust-hue($color-1, 6), 31.87), 44.31);
       .navbar-logo {
         width:70%;
         font-size: 18px;
-        line-height: 20px;
+        line-height: 40px;
         color: #777;
-        >img {margin-top: 11px;width:100%;}
+        >img {width:100%;}
         &:hover {
           color: #3a3a3a;
           //font-weight: 600;
@@ -266,7 +278,7 @@ $color-4: lighten(desaturate(adjust-hue($color-1, 6), 31.87), 44.31);
         }
       }
     }
-    .nav-links{text-transform: uppercase;}
+    //.nav-links{text-transform: uppercase;}
     .change-lang {
       bottom: 7px;
       &.eng {
