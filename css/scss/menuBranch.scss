@@ -1,7 +1,7 @@
 .branchWrapper {
   width: 100%;
   position: relative;
-  background: #3cbea6;
+  background: $color-1;
   .menuBranch {
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -21,11 +21,12 @@
       position: relative;
       transition: 1s all;
       white-space: nowrap;
+      margin-left: -4px;
       &.active {
-        background-color: #168a73;
+        background-color: darken(saturate(adjust-hue($color-1, -1), 21.90), 17.84);
       }
       &:hover {
-        background-color: #168a73;
+        background-color: darken(saturate(adjust-hue($color-1, -1), 21.90), 17.84);
         color: #121212;
       }
       &:nth-child(n):hover:before{

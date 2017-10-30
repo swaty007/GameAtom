@@ -58,18 +58,18 @@ html body{font-size:16px;font-family:Roboto,sans-serif}
 #slider .carousel-caption h1{font-size:24px;font-weight:700;text-transform:uppercase;text-align:center}
 #slider .carousel-caption p{width:345px;font-size:14px;font-weight:400}
 #slider .carousel-caption button{width:250px;height:50px;background-color:#3ebda5}
-.branchWrapper{width:100%;position:relative;background:#3cbea6}
+.branchWrapper{width:100%;position:relative;background:#3ebda5}
 .branchWrapper .menuBranch{width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-.branchWrapper .menuBranch a{color:#fefefe;font-size:16px;font-weight:500;text-transform:uppercase;line-height:70px;height:140px;width:19.5%;display:inline-block;text-align:center;text-decoration:none;position:relative;transition:1s all;white-space:nowrap}
-.branchWrapper .menuBranch a:nth-child(1):before,.branchWrapper .menuBranch a:nth-child(2):before,.branchWrapper .menuBranch a:nth-child(3):before,.branchWrapper .menuBranch a:nth-child(4):before,.branchWrapper .menuBranch a:nth-child(5):before{content:'';width:60px;background-size:60px;height:60px;margin:13px auto 0;transition:1s all}
-.branchWrapper .menuBranch a.active{background-color:#168a73}
-.branchWrapper .menuBranch a:hover{background-color:#168a73;color:#121212}
+.branchWrapper .menuBranch a{color:#fefefe;font-size:16px;font-weight:500;text-transform:uppercase;line-height:70px;height:140px;width:19.5%;display:inline-block;text-align:center;text-decoration:none;position:relative;transition:1s all;white-space:nowrap;margin-left:-4px}
+.branchWrapper .menuBranch a:nth-child(1):before,.branchWrapper .menuBranch a:nth-child(2):before,.branchWrapper .menuBranch a:nth-child(3):before,.branchWrapper .menuBranch a:nth-child(4):before,.branchWrapper .menuBranch a:nth-child(5):before{content:'';width:60px;background-size:60px;height:60px;margin:13px auto 0;transition:1s all;display:block}
+.branchWrapper .menuBranch a.active{background-color:#168a72}
+.branchWrapper .menuBranch a:hover{background-color:#168a72;color:#121212}
 .branchWrapper .menuBranch a:nth-child(n):hover:before{filter:invert(0)!important}
-.branchWrapper .menuBranch a:nth-child(1):before{background-image:url(../img/icon/football.png);display:block;filter:invert(1)}
-.branchWrapper .menuBranch a:nth-child(2):before{background-image:url(../img/icon/dices.png);display:block;filter:invert(1)}
-.branchWrapper .menuBranch a:nth-child(3):before{background-image:url(../img/icon/chip.png);display:block;filter:invert(1)}
-.branchWrapper .menuBranch a:nth-child(4):before{background-image:url(../img/icon/strategy.png);display:block;filter:invert(1)}
-.branchWrapper .menuBranch a:nth-child(5):before{background-image:url(../img/icon/slot-machine.png);display:block;filter:invert(1)}
+.branchWrapper .menuBranch a:nth-child(1):before{background-image:url(../img/icon/football.png);filter:invert(1)}
+.branchWrapper .menuBranch a:nth-child(2):before{background-image:url(../img/icon/dices.png);filter:invert(1)}
+.branchWrapper .menuBranch a:nth-child(3):before{background-image:url(../img/icon/chip.png);filter:invert(1)}
+.branchWrapper .menuBranch a:nth-child(4):before{background-image:url(../img/icon/strategy.png);filter:invert(1)}
+.branchWrapper .menuBranch a:nth-child(5):before{background-image:url(../img/icon/slot-machine.png);filter:invert(1)}
 @media (max-width:768px){.branchWrapper .menuBranch a{width:32%}
 }
 .computers{margin:50px 0}
@@ -78,11 +78,12 @@ html body{font-size:16px;font-family:Roboto,sans-serif}
 .computers .computer-block p{color:#121212;font-family:Roboto,sans-serif;font-size:14px;font-weight:400}
 .computers .computer-block button,.urunler .menu button span,.urunler .menu ul.alex_tab_menu li a{color:#fff;font-weight:400;text-transform:uppercase;font-family:Roboto,sans-serif}
 .computers .computer-block button{width:250px;height:50px;background-color:#3ebda5;font-size:14px}
+.computers .computer-block button:hover{background:#2f9c87}
 .urunler .menu{text-align:center}
 .urunler .menu ul.alex_tab_menu{list-style:none;text-align:left;width:100%;padding:0}
 .urunler .menu ul.alex_tab_menu li a{background-color:#3ebda5;font-size:16px;line-height:50px;display:block;text-decoration:none}
 .urunler .menu ul.alex_tab_menu li a img{width:30px;height:30px;margin:0 14px;filter:invert(1)}
-.urunler .menu ul.alex_tab_menu li a.selected,.urunler .menu ul.alex_tab_menu li a:hover{background-color:#168a73}
+.urunler .menu ul.alex_tab_menu li a.selected,.urunler .menu ul.alex_tab_menu li a:hover{background-color:#168a72}
 .urunler .menu button{background-color:#3ebda5;padding:0}
 .urunler .menu button span{font-size:14px;padding:0 18px}
 .urunler .menu button img{width:50px;height:50px}
@@ -104,13 +105,13 @@ html body{font-size:16px;font-family:Roboto,sans-serif}
 .iletisim form textarea{width:90%}
 .iletisim form .area_title{margin:0 17px 16px}
 .iletisim form button{width:250px;height:50px;background-color:#3ebda5;border:none;color:#fff}
-.iletisim form button:hover{background:#2f9c88}
+.iletisim form button:hover{background:#2f9c87}
 .ortaclarimiz .main_image-block p{color:#3ebda5;font-family:Roboto,sans-serif;font-size:24px;font-weight:700}
 .ortaclarimiz .main_image-block .img_block{display:inline-block;text-align:center;padding:15px 9px;width:100%;background:#e4e3e3;margin-bottom:30px}
 .ortaclarimiz .main_image-block .img_block img{height:50px}
 .ortaclarimiz .ucash{padding:0}
 .ortaclarimiz .ucash img{height:80px}
-.green_nav{display:block;width:100%;height:202px;background:url(../img/green_back.png) #3ebda1}
+.green_nav{display:block;width:100%;height:202px;background:url(../img/green_back.png) #3ebda5}
 .green_nav .img_nav{display:inline-block;vertical-align:top;margin:26px 0 0 40px}
 .green_nav .img_nav img{width:52px;height:52px;filter:invert(1)}
 .green_nav .green_header{display:inline-block;vertical-align:top;margin:21px 0 0 13px;color:#fff;font-size:14px;font-weight:400}

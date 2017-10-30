@@ -24,15 +24,15 @@
           display:block;
           text-decoration: none;
           &:hover {
-            background-color: #168a73;
+            background-color: darken(saturate(adjust-hue($color-1, -1), 21.90), 17.84);
           }
-          &.selected {background-color: #168a73;}
+          &.selected {background-color: darken(saturate(adjust-hue($color-1, -1), 21.90), 17.84);}
         }
       }
     }
     button {
       box-shadow: 0 0 27px rgba(77, 77, 77, 0.3), inset 0 -4px 0 rgba(18, 18, 18, 0.2);
-      background-color: #3ebda5;
+      background-color: $color-1;
       padding: 0;
       span {
         color: #ffffff;

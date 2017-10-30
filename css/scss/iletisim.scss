@@ -36,7 +36,7 @@
     color: #fff;
   }
     button:hover{
-      background: rgb(47, 156, 136);
+      background: darken(saturate($color-1, 3.10), 9.41);
     }
 
   }
