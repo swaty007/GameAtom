@@ -1,4 +1,4 @@
-@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v16/zN7GBFwfMP4uA6AR0HCoLQ.ttf) format('truetype')}
+@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v18/zN7GBFwfMP4uA6AR0HCoLQ.ttf) format('truetype')}
 html body{font-size:16px;font-family:Roboto,sans-serif}
 .wrap{margin-top:60px}
 .main{margin-top:-50px;background-color:#fff;box-shadow:0 0 27px rgba(77,77,77,.3);padding:20px;margin-bottom:50px}
@@ -47,7 +47,8 @@ html body{font-size:16px;font-family:Roboto,sans-serif}
 .navbar-main-1 .navbar-header-1 .navbar-logo{width:70%;font-size:18px;line-height:40px;color:#777}
 .navbar-main-1 .navbar-header-1 .navbar-logo>img{width:100%}
 .navbar-main-1 .navbar-header-1 .navbar-logo:hover{color:#3a3a3a}
-.navbar-main-1 .change-lang{bottom:7px}
+.navbar-main-1 .change-lang{bottom:7px;background-color:transparent!important}
+.navbar-main-1 .change-lang.active{display:none!important}
 }
 .iletisim form input:focus,.iletisim form textarea:focus{border:2px solid #3ebda5}
 #slider .carousel-caption h1,#slider .carousel-caption p{color:#121212;font-family:Roboto,sans-serif}
@@ -108,7 +109,7 @@ html body{font-size:16px;font-family:Roboto,sans-serif}
 .iletisim form button:hover{background:#2f9c87}
 .ortaclarimiz .main_image-block p{color:#3ebda5;font-family:Roboto,sans-serif;font-size:24px;font-weight:700}
 .ortaclarimiz .main_image-block .img_block{display:inline-block;text-align:center;padding:15px 9px;width:100%;background:#e4e3e3;margin-bottom:30px}
-.ortaclarimiz .main_image-block .img_block img{height:50px}
+.ortaclarimiz .main_image-block .img_block img{height:50px;max-width:100%}
 .ortaclarimiz .ucash{padding:0}
 .ortaclarimiz .ucash img{height:80px}
 .green_nav{display:block;width:100%;height:202px;background:url(../img/green_back.png) #3ebda5}
@@ -153,3 +154,9 @@ footer .middle ul li{width:33%}
 footer .middle ul li a{width:100%}
 footer .middle ul li:nth-child(4) a{border-left:1px solid #c9c9c9}
 }
+.breadcrumb{background-color:transparent}
+.breadcrumb>.active{color:#fff}
+.breadcrumb a{color:#fff;text-decoration:none;transition:.4s all}
+.breadcrumb a:hover{color:#121212}
+.form-control{border:2px solid #ccc}
+.carousel-inner>.item{background-position:center}

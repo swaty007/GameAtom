@@ -281,6 +281,7 @@ $color-4: lighten(desaturate(adjust-hue($color-1, 6), 31.87), 44.31);
     //.nav-links{text-transform: uppercase;}
     .change-lang {
       bottom: 7px;
+      background-color: transparent !important;
       &.eng {
         //position: absolute;
         //bottom: -5px;
@@ -292,7 +293,7 @@ $color-4: lighten(desaturate(adjust-hue($color-1, 6), 31.87), 44.31);
         //left: -5px;
       }
       &.active {
-        //display:none !important;
+        display:none !important;
         //border: 3px solid $color-1;
       }
     }
